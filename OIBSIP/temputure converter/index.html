@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <title> Temperature Converter</title>
+    </head>
+    <body>
+        <div class="box">
+            <h1 class="color">Temperature Converter</h1>
+            <div class="input_box">
+                <input
+                    class="Box"
+                    type="text"
+                    id="fahrenheit"
+                    placeholder="Fahrenheit"
+                    name="f"
+                    value=""
+                >
+                <lord-icon src="https://cdn.lordicon.com/axacjdbs.json" trigger="hover" style="width:50px;height:50px"></lord-icon>
+                <input
+                    class="Box"
+                    type="text"
+                    id="celsius"
+                    placeholder="Celsius"
+                    name="c"
+                    value=""
+                >
+            </div>
+            <br>
+            <br>
+            <div class="BOX-button">
+                <button class="buttons" id="convert">Convert</button>
+                <button class="buttons" style="background-color: rgb(52, 52, 52);" id="clear">Reset</button>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    </body>
+</html>

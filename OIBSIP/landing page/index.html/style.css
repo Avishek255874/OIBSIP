@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  padding: 70px 70px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contant {
+  width: 400px;
+  color: #999;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+
+}
+
+.Under_line:hover {
+
+  border: none;
+  border-bottom: 2px solid rgb(255, 54, 134);
+  transition: 2ms ease-in-out;
+  border-top: 10px;
+
+
+
+}
+
+
+
+
+.left .back {
+  background: #ff62c3;
+  background: -webkit-linear-gradient(63deg, #ff62c3 0%, #ff45da 100%);
+  background: linear-gradient(63deg, #ff62c3 0%, #ff45da 100%);  color: white;
+  border-radius: 20px;
+  border: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  /* width:50pxpx; */
+  /* height:25px; */
+  /* padding-right: 40px; */
+  cursor: pointer;
+
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.color {
+  color: rgb(243, 20, 131)
+}
+
+.box {
+  padding-top: 20px;
+
+}
+
+.back1 {
+  background: #ff62c3;
+  background: -webkit-linear-gradient(63deg, #ff62c3 0%, #ff45da 100%);
+  background: linear-gradient(63deg, #ff62c3 0%, #ff45da 100%);
+  color: white;
+  border-radius: 20px;
+  border: hidden;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  cursor: pointer;
+
+}
+
+.hide {
+  color: #999;
+
+}
+
+.box1 {
+  padding-left: 40px;
+}
+
+.box2 {
+  padding-right: 90px;
+
+}
+
+.parent {
+  padding-left: 108px;
+  padding-right: 163px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.child {
+  width: 370px;
+}
+
+.born {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 10px;
+}
+
+.baby {
+  padding: 20px
+}
+
+.born2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  font-size: 2
+}
+
+.image2 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.student {
+  padding-left: 239px;
+
+}
+
+.whale {
+  padding-left: 95px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.num1 {
+  color: rgb(243, 20, 131);
+}
+
+.like {
+  padding-top: 100px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Poppins';
+}
+
+.contain2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 8px;
+  font-family: 'DM Serif Display', serif;
+  color: rgb(48, 45, 45);
+}
+
+.saying {
+  padding-right: 108px;
+
+}
+
+.course_type {
+  /* border: 2px solid red; */
+  padding-right: 108px;
+  padding-left: 108px;
+
+}
+
+.course {
+  padding-right: 100px;
+
+}
+
+.cards {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  /* border:5px solid rgb(28, 255, 77); */
+
+
+
+}
+
+.card {
+  width: 260px;
+  height: 350px;
+  /* border:5px solid rgb(22, 22, 255); */
+}
+
+.images_course {
+  height: 150px;
+  width: 260px;
+  border-radius: 5px;
+
+}
+.infomation{
+ padding: 60px;
+ display: flex;
+ justify-content: center;
+
+}
+.context{
+  color: white;
+
+  padding: 60px;
+  
+  width: 60%;
+    
+  border-radius: 10px;
+  background: #ff8c8f;
+  background: -webkit-linear-gradient(113deg, #ff8c8f 0%, #f9595f 100%);
+  background: linear-gradient(113deg, #ff8c8f 0%, #f9595f 100%);
+  display: flex;
+  justify-content: space-around;
+align-items: center;
+}
+.start_button{
+  padding: 20px 25px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #f9595f;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.start_buttons{
+  padding: 20px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #f9595f;
+
+  border-radius: 35px;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+.footer{
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.text_color{
+  color: #999;
+}
+.Input_box{
+  padding: 6px;
+  border-radius: 5px;
+  width: 250px;
+  border: 2px solid #ff8c8f;
+
+}
+.LAst{
+  font-size: 12px;
+  padding: 10px;
+  color: #999;
+  display: flex;
+  justify-content: center;
+}
